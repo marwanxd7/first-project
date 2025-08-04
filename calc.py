@@ -25,4 +25,5 @@ elif op == "-":
 #الجذر التربيعي
 #المساعدات
 else:
-    print("Error... The opration that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
+    print("Error... The oprations that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
+
