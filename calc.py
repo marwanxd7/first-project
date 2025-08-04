@@ -4,12 +4,14 @@ print("******####******####********#*********####******##*****##******#********#
 print("****##********##****##******#*******##**********##*****##******#******##****##******#####******##****##******#********")
 print("****##********##****##******#*******##**********##*****##******#******##****##********#********##****##******#********")
 print("******####******####*##*****##********####********#####********##*******####*##*******###********####********#********")
-print("**********************************************************************************************************************")
+print("**********************************************************************************************************************\n")
+
+print("The oprations that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
 
 #المتغيرات
-num1= input ("Enter the first numper: ")
+num1= int(input ("Enter the first numper: "))
 op =  input ("Enter the opration: ")
-num2= input ("Enter the second numper: ")
+num2= int(input ("Enter the second numper: "))
 #الجمع
 if op == "+":
     print("The value is :"+str(num1+num2))
@@ -25,5 +27,4 @@ elif op == "-":
 #الجذر التربيعي
 #المساعدات
 else:
-    print("Error... The oprations that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
-
+    print("Error...")
