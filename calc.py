@@ -7,18 +7,17 @@ print("******####******####*##*****##********####********#####********##*******#
 print("**********************************************************************************************************************")
 
 #المتغيرات
-num1= input ("enter the first numper: ")
-num2= input ("enter the second numper: ")
-op = any
+num1= input ("Enter the first numper: ")
+op =  input ("Enter the opration: ")
+num2= input ("Enter the second numper: ")
 #الجمع
 if op == "+":
-    print("the value " +str(num1+num2u))
+    print("The value is :"+str(num1+num2))
 #الطرح
-else if op == "-":
+elif op == "-":
     print("The value is :"+str(num1-num2))
 #الضرب 
 #القسمة
-else if 
 #المتبقي
 #الاس 
 #القيمة المطلقة
@@ -26,4 +25,4 @@ else if
 #الجذر التربيعي
 #المساعدات
 else:
-print("Error... The opration that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
+    print("Error... The opration that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
