@@ -7,7 +7,12 @@ print("******####******####*##*****##********####********#####********##*******#
 print("**********************************************************************************************************************")
 
 #المتغيرات
+num1= input ("enter the first numper: ")
+num2= input ("enter the second numper: ")
+op = any
 #الجمع
+if op == "+":
+    print("the value " +str(num1+num2u))
 #الطرح
 else if op == "-":
     print("The value is :"+str(num1-num2))
