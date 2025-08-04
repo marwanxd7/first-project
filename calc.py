@@ -8,13 +8,17 @@ print("*************************************************************************
 
 #المتغيرات
 #الجمع
-#الطرح 
+#الطرح
+else if op == "-":
+    print("The value is :"+str(num1-num2))
 #الضرب 
 #القسمة
+else if 
 #المتبقي
 #الاس 
 #القيمة المطلقة
 #التقريب
 #الجذر التربيعي
 #المساعدات
-
+else:
+print("Error... The opration that you can use : | + | - | * | / | remainder of division | ^ | absolute value | round | square root |")
